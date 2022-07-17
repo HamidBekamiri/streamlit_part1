@@ -8,7 +8,7 @@ sentences2 = st.text_input('Insert sentences 2:')
 
 
 
-st.button('Submit'):
+if st.button('Submit'):
   st.write('sentences1 is: ', sentences1)
   st.write('sentences2 is: ', sentences2)
 
