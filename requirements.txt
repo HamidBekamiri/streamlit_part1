@@ -2,3 +2,4 @@ numpy
 pillow
 matplotlib
 wordcloud
+sentence_transformers
