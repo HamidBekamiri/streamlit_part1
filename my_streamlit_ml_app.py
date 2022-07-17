@@ -22,6 +22,4 @@ if st.button('Submit'):
   cosine_scores = util.cos_sim(embeddings1, embeddings2)
 
   #Output the pairs with their score
-  for i in range(len(sentences1)):
-    st.write("{} \t\t {} \t\t Score: {:.4f}".format(sentences1[i], sentences2[i], cosine_scores[i][i]))
-#     print("{} \t\t {} \t\t Score: {:.4f}".format(sentences1[i], sentences2[i], cosine_scores[i][i]))
+  st.write(sentences1[i], sentences2[i], cosine_scores[i][i])
