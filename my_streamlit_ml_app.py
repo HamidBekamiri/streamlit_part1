@@ -23,3 +23,5 @@ if st.button('Submit'):
 
   #Output the pairs with their score
   st.write(sentences1, sentences2, cosine_scores)
+  st.write(sentences2)
+  st.write(cosine_scores)
