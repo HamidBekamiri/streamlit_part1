@@ -22,5 +22,5 @@ if st.button('Submit'):
   cosine_scores = util.cos_sim(embeddings1, embeddings2)
 
   #Output the pairs with their score
-  st.write(sentences1, sentences2, cosine_scores[0])
+  st.write('The Semantic Similarity Score between two sentences is: ', cosine_scores[0])
 
