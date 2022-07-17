@@ -22,6 +22,5 @@ if st.button('Submit'):
   cosine_scores = util.cos_sim(embeddings1, embeddings2)
 
   #Output the pairs with their score
-  st.write(sentences1, sentences2, cosine_scores)
-  st.write(sentences2)
-  st.write(cosine_scores)
+  st.write(sentences1, sentences2, cosine_scores[0])
+
